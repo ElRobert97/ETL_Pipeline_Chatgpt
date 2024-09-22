@@ -19,7 +19,7 @@ def get_user(id):
 users = [user for id in user_id if (user := get_user(id)) is not None]
 print(json.dumps(users, indent=2))
 
-openai_key = "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"
+openai_key = ""
 
 openai.api_key = openai_key
 
